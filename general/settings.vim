@@ -52,7 +52,7 @@ set guifont=Consolas:h10
 set t_Co=256
 "set termguicolors
 "set background=dark
-colorscheme murphy
+"colorscheme murphy
 
 " markdown
 augroup markdown
@@ -64,3 +64,5 @@ augroup END
 set incsearch
 "enable search highlighting
 set hlsearch
+
+set path=$PWD/**
